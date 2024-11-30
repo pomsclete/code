@@ -48,5 +48,4 @@ class Bourse{
 $bourse = new Bourse;
 $bourse->setMontant(0.0);
 $bourse->setTaux(0.4);
-echo $bourse->bourseConvert();
-echo $bourse->bourseConvertTwo($bourse->getTaux(),$bourse->getMontant());
+echo $bourse->bourseConvert($bourse->getTaux(),$bourse->getMontant());
